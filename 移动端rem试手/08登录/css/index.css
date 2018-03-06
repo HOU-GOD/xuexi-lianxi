@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../font/iconfont.eot');
+    /* IE9*/
+    src: url('../../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    /* -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px; */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #999999;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'weiruanyahei';
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.all {
+    width: 100%;
+    height: 123rem;
+    background-color: #fafafa;
+}
+
+.top {
+    width: 64rem;
+    height: 8.5rem;
+    background-color: #0099ff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    line-height: 8.5rem;
+    z-index: 999;
+}
+
+.top .se {
+    position: absolute;
+    left: 1rem;
+    font-size: 3em;
+    color: #fff;
+}
+
+.top .do {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: #fff;
+}
+/* 用户名和密码 */
+.table {
+    width: 64rem;
+    height: 28rem;
+    margin-top: 8.5rem;
+    position: relative;
+}
+.table input {
+    border: 0.1rem solid #f2f2f2;
+    width: 61rem;
+    height: 9rem;
+    box-sizing: border-box;
+    padding-left: 27rem;
+    font-size: 2rem;
+    color: #999;
+    outline: none;
+}
+.table input:nth-child(1) {
+    position: absolute;
+    left: 1rem;
+    top: 5rem;
+}
+.table input:nth-child(2) {
+    position: absolute;
+    left: 1rem;
+    top: 14rem;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.table span {
+    color: #0099ff;
+    font-size: 3rem;
+}
+.table span i {
+    color: #666;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 200;
+    margin-left: 1rem;
+}
+.table .su {
+    position: absolute;
+    left: 4rem;
+    top: 8rem;
+}
+.table .sp {
+    position: absolute;
+    left: 4rem;
+    top: 17rem;
+}
+/* 登录按钮 */
+.btn {
+    width: 61rem;
+    height: 7rem;
+    background-color: #0099ff;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 3rem;
+    color: #fff;
+}
+/* 底下两个 */
+.btns {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+.btns a {
+    display: inline-block;
+    width: 29rem;
+    height: 7rem;
+    box-sizing: border-box;
+    border: 0.1rem solid #d9d9d9;
+    text-align: center;
+    line-height: 7rem;
+    border-radius: 1rem;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.btns a:nth-child(2) {
+    margin-left: 3rem;
+}
+/* 忘记密码 */
+.wj {
+    margin-left: 49.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+/* 底部 */
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 64rem;
+    height: 9rem;
+    background-color: #fff;
+}
+
+.bottom ul li {
+    float: left;
+    width: 21.3rem;
+    height: 9rem;
+    text-align: center;
+}
+
+.bottom ul li span {
+    font-size: 5rem;
+    color: #afafaf;
+}
+
+.bottom ul li p {
+    color: #afafaf;
+    font-size: 2rem;
+}
+
+.bottom ul li:nth-child(2) span,
+.bottom ul li:nth-child(2) p {
+    color: #0099ff;
+}

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../font/iconfont.eot');
+    /* IE9*/
+    src: url('../../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    /* -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px; */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #999999;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'weiruanyahei';
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.all {
+    width: 100%;
+    height: 165rem;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.top {
+    width: 64rem;
+    height: 8.5rem;
+    background-color: #0099ff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    line-height: 8.5rem;
+    z-index: 999;
+}
+
+.top .se {
+    position: absolute;
+    left: 1rem;
+    font-size: 3em;
+    color: #fff;
+}
+
+.top .do {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: #fff;
+}
+
+.top .dos {
+    position: absolute;
+    right: 1rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* banner */
+
+.banner {
+    width: 64rem;
+    height: 32rem;
+    position: relative;
+    margin-top: 8.5rem;
+    background-image: url(../images/111.gif);
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 1rem;
+}
+
+.kg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 64rem;
+    height: 8.5rem;
+    background-color: rgba(140, 140, 140, 0.8);
+}
+
+.kg p {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.2rem;
+}
+
+.kg h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: absolute;
+    left: 1rem;
+    top: 4rem;
+}
+
+.kg i {
+    font-style: normal;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    left: 19rem;
+    top: 1.2rem;
+}
+
+.kg h4 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.kg span {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    right: 1rem;
+    top: 4.5rem;
+}
+
+/* 商品描述 */
+
+.des {
+    background-color: #fff;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    width: 64rem;
+}
+
+.one {
+    height: 23rem;
+}
+
+.des .sk {
+    position: absolute;
+    left: 1rem;
+    top: 1.6rem;
+    font-size: 3rem;
+    color: #0099ff;
+}
+
+.des p {
+    width: 62rem;
+    height: 14rem;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    font-size: 2.1rem;
+    color: #666;
+    line-height: 4.2rem;
+    /* padding-right: 1rem; */
+}
+
+.two {
+    height: 47rem;
+}
+
+.three {
+    height: 15rem;
+}
+
+.four {
+    height: 19rem;
+}
+
+.producer {
+    position: absolute;
+    right: 1rem;
+    bottom: 14rem;
+    font-size: 2.1rem;
+    color: #666;
+}
+.producer ul {
+    padding-right: 1rem;
+}
+.producer ul li:nth-child(2) {
+    padding-left: 4.5rem;
+}
+
+/* 底部 */
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 64rem;
+    height: 9rem;
+    background-color: #fff;
+}
+
+.bottom ul li {
+    float: left;
+    width: 21.3rem;
+    height: 9rem;
+    text-align: center;
+}
+
+.bottom ul li span {
+    font-size: 5rem;
+    color: #afafaf;
+}
+
+.bottom ul li p {
+    color: #afafaf;
+    font-size: 2rem;
+}
+
+.bottom ul li:nth-child(1) span, .bottom ul li:nth-child(1) p {
+    color: #0099ff;
+}
